@@ -38,6 +38,7 @@ html {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -70,6 +71,7 @@ html {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -79,10 +81,43 @@ html {
   .gradient {
     @apply bg-gradient-to-br from-blue-600 to-purple-600;
   }
+
   .gradient-title {
     @apply gradient font-extrabold tracking-tighter pr-2 pb-2 text-transparent bg-clip-text;
   }
 }
+
+.gradient-title {
+  background: linear-gradient(90deg,
+      #064e3b,
+      /* emerald-900 */
+      #065f46,
+      /* emerald-800 */
+      #13643c,
+      /* emerald-700 */
+      #247118,
+      /* emerald-800 again for a looped effect */
+      #4a7337
+      /* emerald-900 again */
+    );
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200% center;
+  }
+
+  100% {
+    background-position: -200% center;
+  }
+}
+
 
 .hero-image-wrapper {
   perspective: 1000px;
@@ -103,9 +138,11 @@ html {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
