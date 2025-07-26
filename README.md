@@ -1,6 +1,8 @@
 # Track iT - Personal Finance Tracker
 
 > A Learning & Practice Project
+> ⚠️ This project is based on the template by [@piyush-eon](https://github.com/piyush-eon). I've modified this and learnt from his tutorial and made few UI changes.
+
 
 ## 🎯 Project Overview
 
