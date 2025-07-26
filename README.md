@@ -1,7 +1,53 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# Track iT - Personal Finance Tracker
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+> A Learning & Practice Project
+
+## 🎯 Project Overview
+
+Track iT is a comprehensive personal finance management application that I developed as a learning project by following tutorials and implementing modern web development practices. This project demonstrates my skills in full-stack development, database design, and user experience creation.
+
+## 📚 Learning Journey
+
+This project was built as part of my web development learning journey, where I followed tutorials and expanded upon them to create a fully functional finance tracking application. It showcases my ability to:
+
+- Follow complex technical tutorials
+- Implement and customize existing solutions
+- Add personal touches and improvements
+- Debug and troubleshoot real-world issues
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js 15** - React Framework
+- **Tailwind CSS** - Styling & UI Components
+- **React Hook Form** - Form Management
+- **Recharts** - Data Visualization
+- **Lucide React** - Icons
+
+### Backend
+- **Next.js API Routes** - Server-side Logic
+- **Prisma ORM** - Database Management
+- **PostgreSQL** - Database
+- **Supabase** - Database Hosting
+
+### Authentication & Security
+- **Clerk** - User Authentication
+- **Arcjet** - Security & Rate Limiting
+
+### Additional Services
+- **Google Generative AI** - AI-powered Insights
+- **Resend** - Email Services
+- **Inngest** - Background Job Processing
+
+## ✨ Features
+
+### Core Functionality
+- 🔐 **User Authentication** - Secure sign-up and login
+- 🏦 **Multi-Account Management** - Handle checking and savings accounts
+- 💰 **Transaction Tracking** - Categorize and monitor expenses
+- 📊 **Budget Management** - Create and monitor spending limits
+- 🎯 **Financial Goals** - Set and track savings objectives
+- 🤖 **AI Insights** - Get personalized spending analysis
 
 ### Make sure to create a `.env` file with following variables -
 
